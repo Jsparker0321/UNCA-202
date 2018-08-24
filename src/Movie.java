@@ -51,16 +51,5 @@ public class Movie {
 	public void setLength(int length) {
 		this.length = length;
 	}
-	
-	public static Movie getInfo() {
-		String name = "The Ultimate Computer";
-		String director = "Mad Programmer";
-		int year = 2018;
-		int length = 30;
-		
-		return new Movie( name, director, year, length);
-	}
-	
-
 
 }
