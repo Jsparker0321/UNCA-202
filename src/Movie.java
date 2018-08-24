@@ -1,18 +1,21 @@
 public class Movie {
 
-	String name;
-	String director;
-	int year;
-	int length;
+	private String name;
+	private String director;
+	private int year;
+	private int length;
 
 	
 	public Movie( String name, String director, int year, int length  ) {
-		
+		this.name = name;
+		this.director = director;
+		this.year = year;
+		this.length = length;
 		
 	}
 	
 	public String toString() {
-		return "Movie";
+		return name + " " + director + " " + year + " " + length + " mins " ;
 	}
 	
 	public String getName() {
@@ -58,14 +61,6 @@ public class Movie {
 		return new Movie( name, director, year, length);
 	}
 	
-public static void main(String[] args) {
-		
-		Movie movie = getInfo();
-		
-		System.out.println("Movie name: " + movie.name);
-		System.out.println("Director name: " + movie.director);
-		System.out.println("Production year: " + movie.year);
-		System.out.println("Length: " + movie.length);
-	}
+
 
 }
