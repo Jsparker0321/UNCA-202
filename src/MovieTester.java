@@ -14,7 +14,6 @@ public class MovieTester {
 		System.out.println();
 		
 		//Movie Test 2
-		
 		Movie movie2 = new Movie("Black Panther","Ryan Coogler", 2018, 135);
 
 		System.out.println("Movie name: " + movie2.getName());

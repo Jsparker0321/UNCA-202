@@ -15,7 +15,7 @@ public class Movie {
 	}
 	
 	public String toString() {
-		return name + " " + director + " " + year + " " + length + " mins " ;
+		return name + "|" + director + "|" + year + "|" + length + " mins " ;
 	}
 	
 	public String getName() {
